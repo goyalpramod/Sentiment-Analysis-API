@@ -29,8 +29,8 @@ after which the application will be hosted on the local system and a URL will be
 * F1 score -> 0.8940
 
 ## Notes
-* Requirements.txt has not been updated for experimentations.py as during deployment this increased the slug size hence preventing deployment, so few may face problems while running experimentations.py, consider installing the packages on your own. 
-* The deployment issue was resolved using tensorflow-cpu instead of the traditional tensorflow which has packages installed for GPU too
+* tensorflow-cpu has been put in requirements.txt instead of the traditional tensorflow as tensorflow contains packages for both GPU and CPU which causes the slug size to increase by a factor of lot. While running of local system consider installing tensorflow by running the following command ```pip install tensorflow``` if any issues are encountered. 
+
 
 <footer> Thank you, for giving your valuable time to review my submission. </footer>
 
