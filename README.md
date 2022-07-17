@@ -30,6 +30,7 @@ after which the application will be hosted on the local system and a URL will be
 
 ## Notes
 * tensorflow-cpu has been put in requirements.txt instead of the traditional tensorflow as tensorflow contains packages for both GPU and CPU which causes the slug size to increase by a factor of lot. While running of local system consider installing tensorflow by running the following command ```pip install tensorflow``` if any issues are encountered. 
+* The slug file of API is quite large, so if the API does not load in the first try. Kindly refresh the page.
 
 
 <footer> Thank you, for giving your valuable time to review my submission. </footer>
